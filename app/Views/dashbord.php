@@ -99,7 +99,7 @@
                                     <div class="align-self-center">
                                         <span class="badge bg-success-subtle text-success border border-success px-2"> Préc : <?= number_format($profit_senegal_1, 0, ',', ' ')?></span>
                                     </div>
-                                </div> +
+                                </div> 
                             </div>
                             <!--end card-body-->
                         </div>
