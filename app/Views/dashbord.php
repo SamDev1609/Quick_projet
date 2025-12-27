@@ -14,12 +14,12 @@
                                             </div>
                                         </div>
                                         <div class="flex-grow-1 ms-2 text-truncate">
-                                            <h6 class="text-dark mb-0 fw-semibold fs-20"><?= number_format($profit_total_now, 0, ',', ' ')?></h6>
+                                            <h6 class="text-dark mb-0 fw-semibold fs-20"><?= number_format($profit_total_now, 0, ',', '.')?></h6>
                                             <p class="text-muted mb-0 fw-medium fs-13">Gain GA actuel</p>
                                         </div><!--end media-body-->
                                     </div><!--end media-->
                                     <div class="align-self-center">
-                                        <span class="badge bg-success-subtle text-success border border-success px-2">Préc :<?= number_format($profit_total_1, 0, ',', ' ') ?></span>
+                                        <span class="badge bg-success-subtle text-success border border-success px-2">Préc :<?= number_format($profit_total_1, 0, ',', '.') ?></span>
                                     </div>
                                 </div>                                
                             </div>
@@ -40,7 +40,7 @@
                                             </div>
                                         </div>
                                         <div class="flex-grow-1 ms-2 text-truncate">
-                                            <h6 class="text-dark mb-0 fw-semibold fs-20"><?= number_format($ts_profit_data, 0, ',', ' ')?></h6>
+                                            <h6 class="text-dark mb-0 fw-semibold fs-20"><?= number_format($ts_profit_data, 0, ',', '.')?></h6>
                                             <p class="text-muted mb-0 fw-medium fs-13">Total profit SN obtenu</p>
                                         </div><!--end media-body-->
                                     </div><!--end media-->
@@ -66,7 +66,7 @@
                                             </div>
                                         </div>
                                         <div class="flex-grow-1 ms-2 text-truncate">
-                                            <h6 class="text-dark mb-0 fw-semibold fs-20"><?= number_format($profittop, 0, ',', ' ')?></h6>
+                                            <h6 class="text-dark mb-0 fw-semibold fs-20"><?= number_format($profittop, 0, ',', '.')?></h6>
                                             <p class="text-muted mb-0 fw-medium fs-13">Total  profit GA obtenu</p>
                                         </div><!--end media-body-->
                                     </div><!--end media-->
@@ -92,12 +92,12 @@
                                             </div>
                                         </div>
                                         <div class="flex-grow-1 ms-2 text-truncate">
-                                            <h6 class="text-dark mb-0 fw-semibold fs-20"><?= number_format($profit_current, 0, ',', ' ')?></h6>
+                                            <h6 class="text-dark mb-0 fw-semibold fs-20"><?= number_format($profit_current, 0, ',', '.')?></h6>
                                             <p class="text-muted mb-0 fw-medium fs-13">Gain SN actuel</p>
                                         </div><!--end media-body-->
                                     </div><!--end media-->
                                     <div class="align-self-center">
-                                        <span class="badge bg-success-subtle text-success border border-success px-2"> Préc : <?= number_format($profit_senegal_1, 0, ',', ' ')?></span>
+                                        <span class="badge bg-success-subtle text-success border border-success px-2"> Préc : <?= number_format($profit_senegal_1, 0, ',', '.')?></span>
                                     </div>
                                 </div> 
                             </div>
@@ -142,11 +142,11 @@
                                     </div><!--end col-->
                                     <div class="col-12 col-md-6 align-self-center">
                                         <div class="text-center">
-                                            <h6 class="text-dark mb-2 fw-semibold fs-24"><?= number_format($liq_total, 0, ',', ' ')?></h6>
+                                            <h6 class="text-dark mb-2 fw-semibold fs-24"><?= number_format($liq_total, 0, ',', '.')?></h6>
                                             <ul class="list-unstyled d-flex text-center justify-content-center url-list mb-0">
                                                 <li class="list-item ms-1 mb-1">
                                                     <i class="fas fa-circle fs-10"  style="color: #2a76f4;"></i>
-                                                    <span class="fs-13">Ancien budget <?= number_format($last_bp, 0, ',', ' ')?></span>                                                                                                      
+                                                    <span class="fs-13">Ancien budget <?= number_format($last_bp, 0, ',', '.')?></span>                                                                                                      
                                                 </li>
                                                     
                                             </ul>                                             
@@ -172,13 +172,13 @@
                                                 <h6 class="fs-16 mb-0">Gabon</h6>
                                                 <p class="fs-13 fw-normal mb-0 text-muted">
                                                     <i class="fas fa-circle fs-10 me-1" style="color: #f4a14d;"></i>
-                                                    <?= number_format($liq_ga, 0, ',', ' ')?>
+                                                    <?= number_format($liq_ga, 0, ',', '.')?>
                                                 </p>
                                                 <hr class="hr-dashed">
                                                 <h6 class="fs-16 mb-0">Sénégal</h6>
                                                 <p class="fs-13 fw-normal mb-0 text-muted ">
                                                     <i class="fas fa-circle fs-10 me-1"  style="color: #2a76f4;"></i>
-                                                    <?= number_format($liq_sn, 0, ',', ' ')?>
+                                                    <?= number_format($liq_sn, 0, ',', '.')?>
                                                 </p>
                                             </div><!--end col-->                                 
                                 </div><!--end row--> 
