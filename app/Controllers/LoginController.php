@@ -142,6 +142,14 @@ AND year(created_at)=year(created_at)');
        $results = $builder->getRow();
        $data['profit_total_1'] = $results->profit_total_1 ?? 0;
 
+          //Revenus Sénégal month-1
+       $builder = $db->query('SELECT sum(profit) as profit_senegal_1 
+FROM supply_table 
+WHERE month(created_at)=month(CURRENT_DATE)-1
+');
+       $results = $builder->getRow();
+       $data['profit_senegal_1'] = $results->profit_senegal_1 ?? 0;
+
         $data['app_name']="QUICK TRANSFER";
         $data['page_title']="Dashboard";
        return view('dashbord', $data);
