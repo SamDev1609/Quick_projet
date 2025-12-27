@@ -1,0 +1,224 @@
+CRITICAL - 2025-06-05 18:31:41 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 18:57:36 --> TypeError: Unsupported operand types: string + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 18:57:49 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 18:59:47 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:00:04 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:01:44 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:05:53 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:06:04 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:06:26 --> ErrorException: Undefined variable $new_amount1
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 47.
+ 1 APPPATH\Controllers\OperationController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $new_amount1', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Controllers\\OperationController.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:07:07 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:08:28 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:08:56 --> ParseError: syntax error, unexpected variable "$query14"
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 47.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Quick - original projet\\app\\Controllers\\OperationController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\OperationController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\OperationController')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\OperationController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:09:57 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:10:21 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:10:42 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:21:18 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:22:16 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:45:04 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 19:45:26 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 20:04:52 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 20:05:01 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-05 20:06:57 --> TypeError: Unsupported operand types: string - string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')

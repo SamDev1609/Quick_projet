@@ -1,0 +1,354 @@
+CRITICAL - 2025-06-19 18:47:09 --> ErrorException: Undefined variable $profit_year
+[Method: GET, Route: operations]
+in APPPATH\Views\layout.php on line 498.
+ 1 APPPATH\Views\layout.php(498): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profit_year', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 498)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('operation/index', [], true)
+ 6 APPPATH\Controllers\OperationController.php(27): view('operation/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 18:47:24 --> ErrorException: Undefined variable $profit_year
+[Method: GET, Route: supply]
+in APPPATH\Views\layout.php on line 498.
+ 1 APPPATH\Views\layout.php(498): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profit_year', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 498)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('supply/index', [], true)
+ 6 APPPATH\Controllers\SupplyController.php(25): view('supply/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SupplyController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 18:47:36 --> ErrorException: Undefined variable $profit_year
+[Method: GET, Route: operations]
+in APPPATH\Views\layout.php on line 498.
+ 1 APPPATH\Views\layout.php(498): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profit_year', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 498)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('operation/index', [], true)
+ 6 APPPATH\Controllers\OperationController.php(27): view('operation/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 18:49:50 --> ErrorException: Undefined variable $profit_year
+[Method: GET, Route: operations]
+in APPPATH\Views\layout.php on line 498.
+ 1 APPPATH\Views\layout.php(498): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profit_year', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 498)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('operation/index', [], true)
+ 6 APPPATH\Controllers\OperationController.php(27): view('operation/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 18:56:07 --> ErrorException: Undefined variable $profit_year
+[Method: GET, Route: operations]
+in APPPATH\Views\layout.php on line 498.
+ 1 APPPATH\Views\layout.php(498): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profit_year', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 498)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('operation/index', [], true)
+ 6 APPPATH\Controllers\OperationController.php(27): view('operation/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 18:58:11 --> ErrorException: Undefined variable $profit_year
+[Method: GET, Route: operations]
+in APPPATH\Views\layout.php on line 498.
+ 1 APPPATH\Views\layout.php(498): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profit_year', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 498)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('operation/index', [], true)
+ 6 APPPATH\Controllers\OperationController.php(27): view('operation/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 18:58:13 --> ErrorException: Undefined variable $profit_year
+[Method: GET, Route: operations]
+in APPPATH\Views\layout.php on line 498.
+ 1 APPPATH\Views\layout.php(498): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profit_year', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 498)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('operation/index', [], true)
+ 6 APPPATH\Controllers\OperationController.php(27): view('operation/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 19:06:14 --> ErrorException: Undefined variable $profit_year
+[Method: GET, Route: operations]
+in APPPATH\Views\layout.php on line 498.
+ 1 APPPATH\Views\layout.php(498): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profit_year', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 498)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('operation/index', [], true)
+ 6 APPPATH\Controllers\OperationController.php(27): view('operation/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 19:42:33 --> ErrorException: Undefined property: stdClass::$amount
+[Method: GET, Route: dashbord]
+in APPPATH\Controllers\LoginController.php on line 62.
+ 1 APPPATH\Controllers\LoginController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$amount', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Controllers\\LoginController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 19:43:23 --> ErrorException: Undefined array key "xp"
+[Method: GET, Route: dashbord]
+in APPPATH\Views\dashbord.php on line 59.
+ 1 APPPATH\Views\dashbord.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "xp"', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\dashbord.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\dashbord.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashbord', [], true)
+ 5 APPPATH\Controllers\LoginController.php(74): view('dashbord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 19:45:15 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+[Method: GET, Route: dashbord]
+in APPPATH\Controllers\LoginController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 19:48:30 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+[Method: GET, Route: dashbord]
+in APPPATH\Controllers\LoginController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 20:01:54 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::SelectSum()
+[Method: GET, Route: dashbord]
+in APPPATH\Controllers\LoginController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 20:02:07 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::SelectSum()
+[Method: GET, Route: dashbord]
+in APPPATH\Controllers\LoginController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 20:03:13 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 20:03:33 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 20:04:07 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 20:06:38 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 20:34:25 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 20:41:39 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 20:47:54 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 21:04:48 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 21:07:34 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 21:07:47 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 21:08:29 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 21:09:36 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 21:11:01 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 21:13:11 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 21:14:18 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-19 21:35:31 --> TypeError: Unsupported operand types: int + string
+[Method: POST, Route: operations/save]
+in APPPATH\Controllers\OperationController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')

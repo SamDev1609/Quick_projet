@@ -1,0 +1,1920 @@
+CRITICAL - 2025-06-24 08:30:11 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: dashbord]
+in APPPATH\Views\layout_dash.php on line 11.
+ 1 APPPATH\Views\layout_dash.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout_dash.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout_dash.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout_dash', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashbord', [], true)
+ 6 APPPATH\Controllers\LoginController.php(75): view('dashbord', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 08:31:41 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: dashbord]
+in APPPATH\Views\layout_dash.php on line 11.
+ 1 APPPATH\Views\layout_dash.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout_dash.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout_dash.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout_dash', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashbord', [], true)
+ 6 APPPATH\Controllers\LoginController.php(75): view('dashbord', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 20:38:54 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: loans]
+in APPPATH\Views\layout.php on line 15.
+ 1 APPPATH\Views\layout.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/index', [], true)
+ 6 APPPATH\Controllers\LoanController.php(26): view('loan/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 20:39:10 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: budgets]
+in APPPATH\Views\layout.php on line 15.
+ 1 APPPATH\Views\layout.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('budget/index', [], true)
+ 6 APPPATH\Controllers\BudgetController.php(18): view('budget/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BudgetController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BudgetController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 20:40:53 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: budgets]
+in APPPATH\Views\budget\index.php on line 15.
+ 1 APPPATH\Views\budget\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\budget\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\budget\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('budget/index', [], true)
+ 5 APPPATH\Controllers\BudgetController.php(19): view('budget/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BudgetController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BudgetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 20:43:48 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: loans]
+in APPPATH\Views\layout.php on line 15.
+ 1 APPPATH\Views\layout.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/index', [], true)
+ 6 APPPATH\Controllers\LoanController.php(26): view('loan/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 20:52:42 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: create_operation]
+in APPPATH\Views\layout.php on line 15.
+ 1 APPPATH\Views\layout.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('operation/create', [], true)
+ 6 APPPATH\Controllers\OperationController.php(14): view('operation/create')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 20:53:14 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: create_operation]
+in APPPATH\Views\layout.php on line 15.
+ 1 APPPATH\Views\layout.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('operation/create', [], true)
+ 6 APPPATH\Controllers\OperationController.php(14): view('operation/create')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 20:53:37 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: create_operation]
+in APPPATH\Views\layout.php on line 15.
+ 1 APPPATH\Views\layout.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('operation/create', [], true)
+ 6 APPPATH\Controllers\OperationController.php(14): view('operation/create')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:05:58 --> ErrorException: Undefined variable $page_title
+[Method: GET, Route: supply]
+in APPPATH\Views\layout.php on line 15.
+ 1 APPPATH\Views\layout.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page_title', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('supply/index', [], true)
+ 6 APPPATH\Controllers\SupplyController.php(25): view('supply/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SupplyController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:23:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: budget/edit/9]
+in APPPATH\Views\budget\edit.php on line 9.
+ 1 APPPATH\Views\budget\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\budget\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\budget\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('budget/edit', [], true)
+ 5 APPPATH\Controllers\BudgetController.php(48): view('budget/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BudgetController->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BudgetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:24:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: budget/edit/9]
+in APPPATH\Views\budget\edit.php on line 9.
+ 1 APPPATH\Views\budget\edit.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\budget\\edit.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\budget\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('budget/edit', [], true)
+ 5 APPPATH\Controllers\BudgetController.php(48): view('budget/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BudgetController->edit('9')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BudgetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:24:22 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '9')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('9')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('9')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:24:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/9]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '9')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('9')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('9')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:24:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'9\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '9')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('9')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('9')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:24:23 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'9\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'9\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '9')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('9')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('9')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:25:55 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '9')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('9')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('9')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:25:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/9]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '9')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('9')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('9')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:25:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'9\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '9')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('9')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('9')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:25:55 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'9\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'9\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '9')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('9')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('9')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:26:07 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:26:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:26:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:26:07 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:27:21 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:27:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:27:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:27:21 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:27:23 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:27:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:27:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:27:23 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:29:51 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:29:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:29:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:29:51 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:32:19 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:32:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:32:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:32:20 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:32:21 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:32:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:32:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:32:21 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:37:02 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:37:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:37:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:37:02 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:37:38 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:37:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:37:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:37:38 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:38:17 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:38:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:38:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:38:17 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:38:19 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:38:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:38:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:38:19 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:38:20 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:38:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:38:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:38:20 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:41:44 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:41:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:41:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:41:44 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:46:16 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:46:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:46:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:46:16 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:48:11 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:48:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:48:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:48:11 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-24 21:48:59 --> mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+#6 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-06-24 21:48:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+[Method: GET, Route: loan/edit/10]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 4 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:48:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 6 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:48:59 --> [Caused by] mysqli_sql_exception: Unknown column 'loan_table.deleted_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `loan_table`
+WHERE `loan_table`.`deleted_at` IS NULL
+AND `loan_table`.`loan_id` = :loan_table.loan_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(613): CodeIgniter\Model->doFind(true, '10')
+ 7 APPPATH\Controllers\LoanController.php(92): CodeIgniter\BaseModel->find('10')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:50:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(94): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:52:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(94): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 21:55:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 13.
+ 1 APPPATH\Views\loan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(94): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 22:00:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(94): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 22:08:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(94): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 22:15:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(94): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 22:16:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(94): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 22:16:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(94): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 22:31:03 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(93): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 22:32:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(93): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 22:33:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(93): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+DEBUG - 2025-06-24 22:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-24 22:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-24 22:39:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(93): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 22:52:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(93): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 23:03:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(93): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 23:04:16 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(93): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 23:04:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(93): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 23:08:31 --> Error: Object of class App\Models\LoanModel could not be converted to string
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Controllers\LoanController.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-24 23:12:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: loan/edit/10]
+in APPPATH\Views\loan\edit.php on line 5.
+ 1 APPPATH\Views\loan\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\loan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loan/edit', [], true)
+ 5 APPPATH\Controllers\LoanController.php(95): view('loan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoanController->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+DEBUG - 2025-06-24 23:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-06-24 23:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,373 @@
+DEBUG - 2025-11-23 18:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 18:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 18:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 18:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 18:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 18:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 18:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 18:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 18:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 19:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 19:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 19:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-23 19:20:02 --> mysqli_sql_exception: Table 'quick_db.suply_table' doesn't exist in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('Select sum(prof...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('Select sum(prof...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('Select sum(prof...')
+#3 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoginController.php(91): CodeIgniter\Database\BaseConnection->query('Select sum(prof...')
+#4 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+#5 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2025-11-23 19:20:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'quick_db.suply_table' doesn't exist
+[Method: GET, Route: dashbord]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\LoginController.php(91): CodeIgniter\Database\BaseConnection->query('Select sum(profit) as ga_data from suply_table')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-11-23 19:20:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'quick_db.suply_table' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('Select sum(profit) as ga_data from suply_table')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('Select sum(profit) as ga_data from suply_table')
+ 3 APPPATH\Controllers\LoginController.php(91): CodeIgniter\Database\BaseConnection->query('Select sum(profit) as ga_data from suply_table')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-11-23 19:20:02 --> [Caused by] mysqli_sql_exception: Table 'quick_db.suply_table' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('Select sum(profit) as ga_data from suply_table', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('Select sum(profit) as ga_data from suply_table')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('Select sum(profit) as ga_data from suply_table')
+ 4 APPPATH\Controllers\LoginController.php(91): CodeIgniter\Database\BaseConnection->query('Select sum(profit) as ga_data from suply_table')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+DEBUG - 2025-11-23 19:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 19:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 19:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 19:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 19:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 19:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-23 19:26:34 --> ErrorException: Undefined variable $tg_data
+[Method: GET, Route: dashbord]
+in APPPATH\Views\dashbord.php on line 36.
+ 1 APPPATH\Views\dashbord.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tg_data', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\dashbord.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\dashbord.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashbord', [], true)
+ 5 APPPATH\Controllers\LoginController.php(136): view('dashbord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+DEBUG - 2025-11-23 19:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-23 19:27:05 --> ErrorException: Undefined variable $tg_profit_data
+[Method: GET, Route: dashbord]
+in APPPATH\Views\dashbord.php on line 36.
+ 1 APPPATH\Views\dashbord.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tg_profit_data', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\dashbord.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\dashbord.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashbord', [], true)
+ 5 APPPATH\Controllers\LoginController.php(136): view('dashbord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+DEBUG - 2025-11-23 19:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 19:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 19:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 19:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 19:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 19:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 19:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-23 19:31:37 --> ErrorException: A non-numeric value encountered
+[Method: GET, Route: dashbord]
+in APPPATH\Views\dashbord.php on line 31.
+ 1 APPPATH\Views\dashbord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\dashbord.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\dashbord.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashbord', [], true)
+ 5 APPPATH\Controllers\LoginController.php(136): view('dashbord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+DEBUG - 2025-11-23 19:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-23 19:31:49 --> ErrorException: A non-numeric value encountered
+[Method: GET, Route: dashbord]
+in APPPATH\Views\dashbord.php on line 31.
+ 1 APPPATH\Views\dashbord.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\dashbord.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\dashbord.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashbord', [], true)
+ 5 APPPATH\Controllers\LoginController.php(136): view('dashbord', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+DEBUG - 2025-11-23 19:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 20:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 20:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 20:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 20:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 21:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 21:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 21:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 21:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 21:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-23 21:46:44 --> mysqli_sql_exception: Unknown column 'creadted_at' in 'field list' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT day(crea...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT day(crea...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT day(crea...')
+#3 C:\xampp\htdocs\Quick - original projet\app\Models\OperationModel.php(34): CodeIgniter\Database\BaseConnection->query('SELECT day(crea...')
+#4 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoginController.php(58): App\Models\OperationModel->getChartBar()
+#5 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+#6 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-11-23 21:46:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'creadted_at' in 'field list'
+[Method: GET, Route: dashbord]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Models\OperationModel.php(34): CodeIgniter\Database\BaseConnection->query('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 2 APPPATH\Controllers\LoginController.php(58): App\Models\OperationModel->getChartBar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-11-23 21:46:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'creadted_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 3 APPPATH\Models\OperationModel.php(34): CodeIgniter\Database\BaseConnection->query('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 4 APPPATH\Controllers\LoginController.php(58): App\Models\OperationModel->getChartBar()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-11-23 21:46:44 --> [Caused by] mysqli_sql_exception: Unknown column 'creadted_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 4 APPPATH\Models\OperationModel.php(34): CodeIgniter\Database\BaseConnection->query('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 5 APPPATH\Controllers\LoginController.php(58): App\Models\OperationModel->getChartBar()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+DEBUG - 2025-11-23 21:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-23 21:46:48 --> mysqli_sql_exception: Unknown column 'creadted_at' in 'field list' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT day(crea...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT day(crea...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT day(crea...')
+#3 C:\xampp\htdocs\Quick - original projet\app\Models\OperationModel.php(34): CodeIgniter\Database\BaseConnection->query('SELECT day(crea...')
+#4 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoginController.php(58): App\Models\OperationModel->getChartBar()
+#5 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+#6 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-11-23 21:46:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'creadted_at' in 'field list'
+[Method: GET, Route: dashbord]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Models\OperationModel.php(34): CodeIgniter\Database\BaseConnection->query('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 2 APPPATH\Controllers\LoginController.php(58): App\Models\OperationModel->getChartBar()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-11-23 21:46:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'creadted_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 3 APPPATH\Models\OperationModel.php(34): CodeIgniter\Database\BaseConnection->query('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 4 APPPATH\Controllers\LoginController.php(58): App\Models\OperationModel->getChartBar()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-11-23 21:46:48 --> [Caused by] mysqli_sql_exception: Unknown column 'creadted_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 4 APPPATH\Models\OperationModel.php(34): CodeIgniter\Database\BaseConnection->query('SELECT day(creadted_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 5 APPPATH\Controllers\LoginController.php(58): App\Models\OperationModel->getChartBar()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+DEBUG - 2025-11-23 21:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 21:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 22:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 22:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-23 22:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,200 @@
+DEBUG - 2025-08-06 21:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-06 21:18:50 --> mysqli_sql_exception: Column 'lost' cannot be null in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `op...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `op...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `op...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `op...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(843): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Quick - original projet\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Quick - original projet\app\Controllers\OperationController.php(110): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\OperationController->save()
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+#10 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-08-06 21:18:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'lost' cannot be null
+[Method: POST, Route: operations/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operations_table` (`user_id`, `amount`, `profit`, `lost`, `total_sent`) VALUES (:user_id:, :amount:, :profit:, :lost:, :total_sent:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\OperationController.php(110): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-08-06 21:18:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'lost' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operations_table` (`user_id`, `amount`, `profit`, `lost`, `total_sent`) VALUES (\'3\', 18200, 1800, NULL, \'10\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operations_table` (`user_id`, `amount`, `profit`, `lost`, `total_sent`) VALUES (\'3\', 18200, 1800, NULL, \'10\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operations_table` (`user_id`, `amount`, `profit`, `lost`, `total_sent`) VALUES (:user_id:, :amount:, :profit:, :lost:, :total_sent:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\OperationController.php(110): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-08-06 21:18:50 --> [Caused by] mysqli_sql_exception: Column 'lost' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `operations_table` (`user_id`, `amount`, `profit`, `lost`, `total_sent`) VALUES (\'3\', 18200, 1800, NULL, \'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `operations_table` (`user_id`, `amount`, `profit`, `lost`, `total_sent`) VALUES (\'3\', 18200, 1800, NULL, \'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `operations_table` (`user_id`, `amount`, `profit`, `lost`, `total_sent`) VALUES (\'3\', 18200, 1800, NULL, \'10\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `operations_table` (`user_id`, `amount`, `profit`, `lost`, `total_sent`) VALUES (:user_id:, :amount:, :profit:, :lost:, :total_sent:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(843): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\OperationController.php(110): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OperationController->save()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OperationController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+DEBUG - 2025-08-06 21:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-08-06 21:50:35 --> mysqli_sql_exception: Unknown column 'ceated_at' in 'field list' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT day(ceat...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT day(ceat...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT day(ceat...')
+#3 C:\xampp\htdocs\Quick - original projet\app\Models\OperationModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT day(ceat...')
+#4 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoginController.php(56): App\Models\OperationModel->getChartLine()
+#5 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+#6 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-08-06 21:50:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ceated_at' in 'field list'
+[Method: GET, Route: dashbord]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Models\OperationModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT day(ceated_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 2 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartLine()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-08-06 21:50:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ceated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT day(ceated_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT day(ceated_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 3 APPPATH\Models\OperationModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT day(ceated_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 4 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartLine()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-08-06 21:50:35 --> [Caused by] mysqli_sql_exception: Unknown column 'ceated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT day(ceated_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT day(ceated_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT day(ceated_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 4 APPPATH\Models\OperationModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT day(ceated_at) as day,sum(profit) as profit,sum(lost) as lost
+   
+FROM operations_table
+WHERE month(created_at) = month(CURRENT_DATE)
+AND year(created_at) = year(CURRENT_DATE)
+
+GROUP BY day(created_at)
+ORDER BY created_at asc')
+ 5 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartLine()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+DEBUG - 2025-08-06 21:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 21:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-06 22:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,1514 @@
+ERROR - 2025-06-18 18:51:04 --> mysqli_sql_exception: Table 'quick_db.operation_table' doesn't exist in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('Select * from o...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('Select * from o...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from o...')
+#3 C:\xampp\htdocs\Quick - original projet\app\Models\OperationModel.php(21): CodeIgniter\Database\BaseConnection->query('Select * from o...')
+#4 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+#5 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+#6 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-06-18 18:51:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'quick_db.operation_table' doesn't exist
+[Method: GET, Route: dashbord]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Models\OperationModel.php(21): CodeIgniter\Database\BaseConnection->query('Select * from operation_table')
+ 2 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 18:51:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'quick_db.operation_table' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('Select * from operation_table')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from operation_table')
+ 3 APPPATH\Models\OperationModel.php(21): CodeIgniter\Database\BaseConnection->query('Select * from operation_table')
+ 4 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 18:51:04 --> [Caused by] mysqli_sql_exception: Table 'quick_db.operation_table' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('Select * from operation_table', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('Select * from operation_table')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('Select * from operation_table')
+ 4 APPPATH\Models\OperationModel.php(21): CodeIgniter\Database\BaseConnection->query('Select * from operation_table')
+ 5 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 19:25:59 --> ErrorException: Undefined variable $profit_year
+[Method: GET, Route: dashbord]
+in APPPATH\Views\layout.php on line 498.
+ 1 APPPATH\Views\layout.php(498): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profit_year', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 498)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashbord', [], true)
+ 6 APPPATH\Controllers\LoginController.php(76): view('dashbord', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 19:26:09 --> ErrorException: Undefined variable $profit_year
+[Method: GET, Route: dashbord]
+in APPPATH\Views\layout.php on line 498.
+ 1 APPPATH\Views\layout.php(498): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profit_year', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 498)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashbord', [], true)
+ 6 APPPATH\Controllers\LoginController.php(76): view('dashbord', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 19:26:11 --> ErrorException: Undefined variable $profit_year
+[Method: GET, Route: dashbord]
+in APPPATH\Views\layout.php on line 498.
+ 1 APPPATH\Views\layout.php(498): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profit_year', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php', 498)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout', [], true)
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashbord', [], true)
+ 6 APPPATH\Controllers\LoginController.php(76): view('dashbord', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-18 19:47:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at) asc' at line 18 in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(prof...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(prof...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(prof...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(prof...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Quick - original projet\app\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-18 19:47:52 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at) asc' at line 18
+[Method: GET, Route: dashbord]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 19:47:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at) asc' at line 18
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 19:47:52 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at) asc' at line 18
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-18 19:49:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at) asc' at line 18 in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(prof...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(prof...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(prof...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(prof...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Quick - original projet\app\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-18 19:49:59 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at) asc' at line 18
+[Method: GET, Route: dashbord]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 19:49:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at) asc' at line 18
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 19:49:59 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at) asc' at line 18
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-18 21:17:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at) asc' at line 18 in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(prof...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(prof...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(prof...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(prof...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Quick - original projet\app\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-18 21:17:33 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at) asc' at line 18
+[Method: GET, Route: dashbord]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:17:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at) asc' at line 18
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:17:33 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at) asc' at line 18
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at) asc', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-18 21:19:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at)' at line 18 in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(prof...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(prof...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(prof...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(prof...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Quick - original projet\app\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-18 21:19:49 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at)' at line 18
+[Method: GET, Route: dashbord]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:19:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at)' at line 18
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:19:49 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at)' at line 18
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-18 21:20:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at)' at line 18 in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(prof...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(prof...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(prof...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(prof...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Quick - original projet\app\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-18 21:20:14 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at)' at line 18
+[Method: GET, Route: dashbord]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:20:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at)' at line 18
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:20:14 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP by month(created_at)
+ORDER BY month(created_at)' at line 18
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)
+         WHEN 1 THEN \'Janvier\'
+         WHEN 2 THEN \'Février\'
+         WHEN 3 THEN \'Mars\'
+         WHEN 4 THEN \'Avril\'
+         WHEN 5 THEN \'Mai\'
+         WHEN 6 THEN \'Juin\'
+         WHEN 7 THEN \'Juillet\'
+         WHEN 8 THEN \'Août\'
+         WHEN 9 THEN \'Septembre\'
+         WHEN 10 THEN \'Octobre\'
+         WHEN 11 THEN \'Novembre\'
+         ELSE \'Décembre\'
+END AS MONTH
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\OperationModel.php(39): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-18 21:21:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as cp
+FROM `operations_table`
+WHERE year(created_at) = 'YEAR(CURRENT_DATE)'
+A...' at line 1 in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(prof...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(prof...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(prof...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(prof...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Quick - original projet\app\Models\OperationModel.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-18 21:21:59 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as cp
+FROM `operations_table`
+WHERE year(created_at) = 'YEAR(CURRENT_DATE)'
+A...' at line 1
+[Method: GET, Route: dashbord]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\OperationModel.php(26): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:21:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as cp
+FROM `operations_table`
+WHERE year(created_at) = 'YEAR(CURRENT_DATE)'
+A...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\OperationModel.php(26): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:21:59 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as cp
+FROM `operations_table`
+WHERE year(created_at) = 'YEAR(CURRENT_DATE)'
+A...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE year(created_at) = \'YEAR(CURRENT_DATE)\'
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE year(created_at) = :year(created_at):
+AND `operations_table`.`deleted_at` IS NULL
+GROUP BY GROUP by month(created_at)
+ORDER BY month(created_at)', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\OperationModel.php(26): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-18 21:22:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL' at line 1 in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(prof...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(prof...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(prof...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(prof...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Quick - original projet\app\Models\OperationModel.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-18 21:22:21 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL' at line 1
+[Method: GET, Route: dashbord]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\OperationModel.php(23): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:22:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\OperationModel.php(23): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:22:21 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, `LOST`, CASE MONTH(created_at)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\OperationModel.php(23): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-06-18 21:23:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL' at line 1 in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(prof...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(prof...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(prof...')
+#3 C:\xampp\htdocs\Quick - original projet\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(prof...', Array, false)
+#4 C:\xampp\htdocs\Quick - original projet\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Quick - original projet\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Quick - original projet\app\Models\OperationModel.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Quick - original projet\app\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+#8 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+#9 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#10 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-06-18 21:23:15 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL' at line 1
+[Method: GET, Route: dashbord]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, LOST)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\OperationModel.php(23): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:23:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, LOST)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, LOST)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, LOST)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\OperationModel.php(23): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:23:15 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(profit) as PROFIT, LOST)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(profit) as PROFIT, LOST)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(profit) as PROFIT, LOST)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(profit) as PROFIT, LOST)as cp
+FROM `operations_table`
+WHERE `operations_table`.`deleted_at` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\OperationModel.php(23): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:31:09 --> Error: Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+[Method: GET, Route: dashbord]
+in APPPATH\Models\OperationModel.php on line 22.
+ 1 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:32:13 --> Error: Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+[Method: GET, Route: dashbord]
+in APPPATH\Models\OperationModel.php on line 22.
+ 1 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:35:29 --> Error: Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+[Method: GET, Route: dashbord]
+in APPPATH\Models\OperationModel.php on line 22.
+ 1 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-06-18 21:37:33 --> Error: Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+[Method: GET, Route: dashbord]
+in APPPATH\Models\OperationModel.php on line 22.
+ 1 APPPATH\Controllers\LoginController.php(56): App\Models\OperationModel->getChartData()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->dashbord()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')

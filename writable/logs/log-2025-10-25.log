@@ -1,0 +1,646 @@
+DEBUG - 2025-10-25 00:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-25 00:27:05 --> ErrorException: Undefined array key "dateop"
+[Method: GET, Route: reports/show/082025]
+in APPPATH\Views\reports\mth_report.php on line 278.
+ 1 APPPATH\Views\reports\mth_report.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dateop"', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\reports\\mth_report.php', 278)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\reports\\mth_report.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('reports/mth_report', [], true)
+ 5 APPPATH\Controllers\ReportsController.php(37): view('reports/mth_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 00:27:37 --> ErrorException: Undefined array key "nbre_ligne"
+[Method: GET, Route: reports/show/082025]
+in APPPATH\Views\reports\mth_report.php on line 275.
+ 1 APPPATH\Views\reports\mth_report.php(275): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbre_ligne"', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\reports\\mth_report.php', 275)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\reports\\mth_report.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('reports/mth_report', [], true)
+ 5 APPPATH\Controllers\ReportsController.php(37): view('reports/mth_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 00:27:40 --> ErrorException: Undefined array key "nbre_ligne"
+[Method: GET, Route: reports/show/082025]
+in APPPATH\Views\reports\mth_report.php on line 275.
+ 1 APPPATH\Views\reports\mth_report.php(275): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nbre_ligne"', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\reports\\mth_report.php', 275)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\reports\\mth_report.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('reports/mth_report', [], true)
+ 5 APPPATH\Controllers\ReportsController.php(37): view('reports/mth_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+DEBUG - 2025-10-25 00:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 00:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-25 00:55:58 --> ErrorException: Undefined variable $ts_profits
+[Method: GET, Route: reports/show/072025]
+in APPPATH\Views\reports\mth_report.php on line 314.
+ 1 APPPATH\Views\reports\mth_report.php(314): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ts_profits', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\reports\\mth_report.php', 314)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\reports\\mth_report.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('reports/mth_report', [], true)
+ 5 APPPATH\Controllers\ReportsController.php(43): view('reports/mth_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+DEBUG - 2025-10-25 01:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 01:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-25 01:26:15 --> mysqli_sql_exception: Unknown column '$month_year' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT (budget_...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_...')
+#3 C:\xampp\htdocs\Quick - original projet\app\Controllers\ReportsController.php(49): CodeIgniter\Database\BaseConnection->query('SELECT (budget_...')
+#4 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+#5 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+#6 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2025-10-25 01:26:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$month_year' in 'where clause'
+[Method: GET, Route: reports/show/072025]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\ReportsController.php(49): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 01:26:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$month_year' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1')
+ 3 APPPATH\Controllers\ReportsController.php(49): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 01:26:15 --> [Caused by] mysqli_sql_exception: Unknown column '$month_year' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1')
+ 4 APPPATH\Controllers\ReportsController.php(49): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-10-25 01:27:33 --> mysqli_sql_exception: Unknown column '$month_year' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT (budget_...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_...')
+#3 C:\xampp\htdocs\Quick - original projet\app\Controllers\ReportsController.php(49): CodeIgniter\Database\BaseConnection->query('SELECT (budget_...')
+#4 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+#5 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+#6 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2025-10-25 01:27:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$month_year' in 'where clause'
+[Method: GET, Route: reports/show/072025]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\ReportsController.php(49): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 01:27:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$month_year' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1')
+ 3 APPPATH\Controllers\ReportsController.php(49): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 01:27:33 --> [Caused by] mysqli_sql_exception: Unknown column '$month_year' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1')
+ 4 APPPATH\Controllers\ReportsController.php(49): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=month($month_year)
+AND year(created_at)=year($month_year)
+ORDER BY budget_id DESC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 01:32:41 --> ErrorException: Undefined variable $month_year
+[Method: GET, Route: reports/show/052025]
+in APPPATH\Views\reports\mth_report.php on line 232.
+ 1 APPPATH\Views\reports\mth_report.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $month_year', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\reports\\mth_report.php', 232)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\reports\\mth_report.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('reports/mth_report', [], true)
+ 5 APPPATH\Controllers\ReportsController.php(60): view('reports/mth_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('052025')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 01:35:39 --> Error: Call to undefined function App\Controllers\year()
+[Method: GET, Route: reports/show/082025]
+in APPPATH\Controllers\ReportsController.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-10-25 01:40:20 --> mysqli_sql_exception: Unknown column '$m' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT (budget_...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_...')
+#3 C:\xampp\htdocs\Quick - original projet\app\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_...')
+#4 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+#5 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+#6 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2025-10-25 01:40:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$m' in 'where clause'
+[Method: GET, Route: reports/show/082025]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=$y
+ORDER BY budget_id DESC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 01:40:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$m' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=$y
+ORDER BY budget_id DESC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=$y
+ORDER BY budget_id DESC LIMIT 1')
+ 3 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=$y
+ORDER BY budget_id DESC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 01:40:20 --> [Caused by] mysqli_sql_exception: Unknown column '$m' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=$y
+ORDER BY budget_id DESC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=$y
+ORDER BY budget_id DESC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=$y
+ORDER BY budget_id DESC LIMIT 1')
+ 4 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=$y
+ORDER BY budget_id DESC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+DEBUG - 2025-10-25 14:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 14:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 14:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-25 14:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-25 14:38:08 --> mysqli_sql_exception: Unknown column '$m' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT (budget_...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_...')
+#3 C:\xampp\htdocs\Quick - original projet\app\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_...')
+#4 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+#5 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+#6 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2025-10-25 14:38:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$m' in 'where clause'
+[Method: GET, Route: reports/show/072025]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 14:38:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$m' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1')
+ 3 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 14:38:08 --> [Caused by] mysqli_sql_exception: Unknown column '$m' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1')
+ 4 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-10-25 14:39:10 --> mysqli_sql_exception: Unknown column 'm' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT (budget_...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_...')
+#3 C:\xampp\htdocs\Quick - original projet\app\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_...')
+#4 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+#5 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+#6 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2025-10-25 14:39:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'm' in 'where clause'
+[Method: GET, Route: reports/show/072025]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 14:39:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'm' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1')
+ 3 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 14:39:10 --> [Caused by] mysqli_sql_exception: Unknown column 'm' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1')
+ 4 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=m
+AND year(created_at)=year(CURRENT_DATE)
+ORDER BY budget_id DESC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('072025')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-10-25 14:42:48 --> mysqli_sql_exception: Unknown column '$m' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT (budget_...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_...')
+#3 C:\xampp\htdocs\Quick - original projet\app\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_...')
+#4 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+#5 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+#6 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2025-10-25 14:42:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$m' in 'where clause'
+[Method: GET, Route: reports/show/082025]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 14:42:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$m' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1')
+ 3 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 14:42:48 --> [Caused by] mysqli_sql_exception: Unknown column '$m' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1')
+ 4 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=$m
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+ERROR - 2025-10-25 14:59:48 --> mysqli_sql_exception: Unknown column '$month_year' in 'where clause' in C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\Quick - original projet\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT (budget_...', 0)
+#1 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_...')
+#2 C:\xampp\htdocs\Quick - original projet\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_...')
+#3 C:\xampp\htdocs\Quick - original projet\app\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_...')
+#4 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+#5 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+#6 C:\xampp\htdocs\Quick - original projet\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Quick - original projet\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Quick - original projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\Quick - original projet\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\Quick - original projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2025-10-25 14:59:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$month_year' in 'where clause'
+[Method: GET, Route: reports/show/082025]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=MONTH($month_year)
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 14:59:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$month_year' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=MONTH($month_year)
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=MONTH($month_year)
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1')
+ 3 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=MONTH($month_year)
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 14:59:48 --> [Caused by] mysqli_sql_exception: Unknown column '$month_year' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=MONTH($month_year)
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=MONTH($month_year)
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=MONTH($month_year)
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1')
+ 4 APPPATH\Controllers\ReportsController.php(52): CodeIgniter\Database\BaseConnection->query('SELECT (budget_ga+budget_sn) as last_bp FROM `budgets_table`
+WHERE MONTH(created_at)=MONTH($month_year)
+AND year(created_at)=2025
+ORDER BY budget_id DESC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
+CRITICAL - 2025-10-25 15:25:18 --> ErrorException: Undefined variable $repname
+[Method: GET, Route: reports/show/082025]
+in APPPATH\Views\reports\mth_report.php on line 232.
+ 1 APPPATH\Views\reports\mth_report.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repname', 'C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\reports\\mth_report.php', 232)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Quick - original projet\\app\\Views\\reports\\mth_report.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('reports/mth_report', [], true)
+ 5 APPPATH\Controllers\ReportsController.php(63): view('reports/mth_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ReportsController->show('082025')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReportsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Quick - original projet\\public\\index.php')
